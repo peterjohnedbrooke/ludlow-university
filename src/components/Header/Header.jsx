@@ -12,8 +12,8 @@ export default function Header() {
         <>
             <div className={styles.headerWrapper}>
                 <div className={styles.headerContainer}>
-                    <Media query="(min-width: 720px)" render={() => (<NavBar />)} />
-                    <Media query="(max-width: 720px)" render={() => (<MobileNav />)} />
+                    <Media query="(min-width: 768px)" render={() => (<NavBar />)} />
+                    <Media query="(max-width: 768px)" render={() => (<MobileNav />)} />
                 </div>
             </div>
             <Outlet />

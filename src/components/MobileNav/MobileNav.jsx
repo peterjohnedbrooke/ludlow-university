@@ -26,7 +26,7 @@ export default function MobileNav() {
     const [isOpen, setOpen] = useState(false);
     return (
         <>
-            {/* <div className={click ? styles.logoMove : styles.logoStatic}><Logo /></div> */}
+            <div className={click ? styles.logoMove : styles.logoStatic}><Logo /></div>
             <div className={styles.navContainer}>
                 <div className={!!click ? `${styles.burgerIconCross} ` : `${styles.burgerIcon} `} onClick={handleClick}>
                     <Hamburger size={25} className={styles.burgerInner} toggled={isOpen} rounded toggle={setOpen} />
@@ -35,14 +35,14 @@ export default function MobileNav() {
             <div className={click ? `${styles.navMenuActive} ` : `${styles.navMenuHidden} `}>
                 <div className={styles.bg}></div>
                 <ul className={click ? `${styles.listActive} ` : `${styles.listHidden} `}>
-                    <li>
-                        <a href="/" onClick={handleExit}><h3>Study</h3></a>
+                    <li onClick={handleExit}>
+                        <h3>Study</h3>
                     </li>
-                    <li>
-                        <a href="/projects" onClick={handleExit}><h3>Research</h3></a>
+                    <li onClick={handleExit}>
+                        <h3>Research</h3>
                     </li>
-                    <li>
-                        <a href="/about" onClick={handleExit}><h3>About Us</h3></a>
+                    <li onClick={handleExit}>
+                        <h3>About Us</h3>
                     </li>
                 </ul>
                 <ul className={styles.iconsList}>

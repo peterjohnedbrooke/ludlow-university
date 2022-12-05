@@ -28,3 +28,12 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .cardGridTwoContents {
+        .gridTwo {
+            display: flex;
+        flex-direction: column;
+        }
+    }
+}  

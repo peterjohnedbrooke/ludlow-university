@@ -31,6 +31,7 @@
                 align-items: center;
                 justify-content: center;
                 border-image: linear-gradient(to right, #00C2FF, #FF27C3) 1;
+                z-index: -1;
             }
         }
            
@@ -47,9 +48,14 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .heroWrapper {
       flex-direction:column-reverse;
       width: 100vw;
+
+      .heroTextContainer, .heroImgContainer {
+        width: 100%;
+      }
+
     }
   } 
