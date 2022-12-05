@@ -28,3 +28,11 @@
     }
 
 }
+
+@media screen and (max-width: 480px) {
+    .upcomingEventsContents {
+      .eventsCardsGrid {
+        flex-direction: column;
+      }
+    }
+  } 

@@ -4,7 +4,7 @@
 
         .gridOne {
             display: flex;
-            grid-template-columns: 2fr 1fr;
+            flex-direction: row;
             gap: 2.5rem;
 
             .gridAreaOne {
@@ -52,4 +52,10 @@
         }
     }
 
-
+@media screen and (max-width: 480px) {
+    .cardGridContents {
+        .gridOne {
+        flex-direction: column;
+        }
+    }
+}  

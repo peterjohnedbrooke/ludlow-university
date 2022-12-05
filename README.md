@@ -13,6 +13,12 @@
 
 7. Perhaps not the biggest concern here but to demonstarte my understanding of using Javascript within react and how powerful jsx can be I've added the data for the cards each into objects and then mapped over these to produce the card components for each relative section. On a real world project this data wouldn't be kept locally but the execution would be much the same ie making an api call and then mapping over that data. This is really useful as it means we can create a reusable component such as a card and inject that with whatever data we like. 
 
+Dependancies/NPM
+sass
+react-media
+hambuger-react
+
+
 Older Browser Concerns
 
 1. Need backdrop filter work around https://stackoverflow.com/questions/38145368/css-workaround-to-backdrop-filter 

@@ -34,8 +34,6 @@
             }
         }
            
-        
-        
     }
 
     .heroImgContainer {
@@ -48,3 +46,10 @@
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    .heroWrapper {
+      flex-direction:column-reverse;
+      width: 100vw;
+    }
+  } 
