@@ -7,7 +7,7 @@ import Layout from './components/Layout/Layout'
 
 function App() {
   return (
-   <BrowserRouter>
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Layout>
       <Routes>
           <Route path='/' element={<Header/>}>
