@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/peterjohnedbrooke/ludlow-university/static/css/main.efd5837e.css",
-    "main.js": "/peterjohnedbrooke/ludlow-university/static/js/main.c1f4b192.js",
-    "static/js/787.4a128fa5.chunk.js": "/peterjohnedbrooke/ludlow-university/static/js/787.4a128fa5.chunk.js",
-    "static/media/Group.png": "/peterjohnedbrooke/ludlow-university/static/media/Group.33ee378b976de5de5b91.png",
-    "static/media/clubs.jpg": "/peterjohnedbrooke/ludlow-university/static/media/clubs.879a89efcd5145de6454.jpg",
-    "static/media/chat.jpg": "/peterjohnedbrooke/ludlow-university/static/media/chat.68616543647f85254420.jpg",
-    "static/media/banner-image.jpg": "/peterjohnedbrooke/ludlow-university/static/media/banner-image.6dd90807eeee1fb82bfc.jpg",
-    "static/media/accomodation.jpg": "/peterjohnedbrooke/ludlow-university/static/media/accomodation.74ae6d55aa6aaec996ad.jpg",
-    "static/media/festival.jpg": "/peterjohnedbrooke/ludlow-university/static/media/festival.856db0a20cc647dd9858.jpg",
-    "static/media/game.jpg": "/peterjohnedbrooke/ludlow-university/static/media/game.4bfcecb255a12ab44c8a.jpg",
-    "static/media/study.jpg": "/peterjohnedbrooke/ludlow-university/static/media/study.b1cf32d98cafd965c24a.jpg",
-    "static/media/bike.jpg": "/peterjohnedbrooke/ludlow-university/static/media/bike.292561b744a3fe59076b.jpg",
-    "static/media/support.jpg": "/peterjohnedbrooke/ludlow-university/static/media/support.f7f589a67f94489e2dc2.jpg",
-    "static/media/twitterBlock.png": "/peterjohnedbrooke/ludlow-university/static/media/twitterBlock.a7c5e1ff16ad7924d1b0.png",
-    "static/media/bgLogo.jpg": "/peterjohnedbrooke/ludlow-university/static/media/bgLogo.5f824f8d054345b2c840.jpg",
-    "static/media/logo.svg": "/peterjohnedbrooke/ludlow-university/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/peterjohnedbrooke/ludlow-university/index.html",
-    "main.efd5837e.css.map": "/peterjohnedbrooke/ludlow-university/static/css/main.efd5837e.css.map",
-    "main.c1f4b192.js.map": "/peterjohnedbrooke/ludlow-university/static/js/main.c1f4b192.js.map",
-    "787.4a128fa5.chunk.js.map": "/peterjohnedbrooke/ludlow-university/static/js/787.4a128fa5.chunk.js.map"
+    "main.css": "/ludlow-university/static/css/main.b94f5c6b.css",
+    "main.js": "/ludlow-university/static/js/main.f2750b2a.js",
+    "static/js/787.4a128fa5.chunk.js": "/ludlow-university/static/js/787.4a128fa5.chunk.js",
+    "static/media/Group.png": "/ludlow-university/static/media/Group.33ee378b976de5de5b91.png",
+    "static/media/clubs.jpg": "/ludlow-university/static/media/clubs.879a89efcd5145de6454.jpg",
+    "static/media/chat.jpg": "/ludlow-university/static/media/chat.68616543647f85254420.jpg",
+    "static/media/banner-image.jpg": "/ludlow-university/static/media/banner-image.6dd90807eeee1fb82bfc.jpg",
+    "static/media/accomodation.jpg": "/ludlow-university/static/media/accomodation.74ae6d55aa6aaec996ad.jpg",
+    "static/media/festival.jpg": "/ludlow-university/static/media/festival.856db0a20cc647dd9858.jpg",
+    "static/media/game.jpg": "/ludlow-university/static/media/game.4bfcecb255a12ab44c8a.jpg",
+    "static/media/study.jpg": "/ludlow-university/static/media/study.b1cf32d98cafd965c24a.jpg",
+    "static/media/bike.jpg": "/ludlow-university/static/media/bike.292561b744a3fe59076b.jpg",
+    "static/media/support.jpg": "/ludlow-university/static/media/support.f7f589a67f94489e2dc2.jpg",
+    "static/media/twitterBlock.png": "/ludlow-university/static/media/twitterBlock.a7c5e1ff16ad7924d1b0.png",
+    "static/media/bgLogo.jpg": "/ludlow-university/static/media/bgLogo.5f824f8d054345b2c840.jpg",
+    "static/media/logo.svg": "/ludlow-university/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ludlow-university/index.html",
+    "main.b94f5c6b.css.map": "/ludlow-university/static/css/main.b94f5c6b.css.map",
+    "main.f2750b2a.js.map": "/ludlow-university/static/js/main.f2750b2a.js.map",
+    "787.4a128fa5.chunk.js.map": "/ludlow-university/static/js/787.4a128fa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efd5837e.css",
-    "static/js/main.c1f4b192.js"
+    "static/css/main.b94f5c6b.css",
+    "static/js/main.f2750b2a.js"
   ]
 }
