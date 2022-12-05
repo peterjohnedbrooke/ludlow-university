@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+1. I started with creating a basic create-react-app and installing the relevant dependencies such as react-router-dom, sass.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. With this kind of project I like to write down what the components might look like, how they relate to eachother and whether there are any reusable components in the tree in order to make the design reusable and scalable. The figma is nicely done which helps in the creation process as each component can be mapped out to the correspondening figma asset. Hero, Upcoming events, Footer, Feature Banner, Cards. I believe I'm going to wrap this single page app into a route Landing component just because this is how I've previously done things, not sure this is appropriate on larger scale projects. 
 
-## Available Scripts
+3. I then went on to have a look at the google fonts used, added the api reference to the index.html in the public folder and imported the fonts accordingly, I want to set these fonts as global primary and secondary variable fonts, that way if the fonts are changed later we can change these variables only once. 
 
-In the project directory, you can run:
+4. I've built out the navbar as per the figma specs as a Header component containing the logo and nav components. I would usually call this header component navbar and code as such but the figma specs point to using a header component which contains both.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. I was experimenting for quite some time on how to attack the Card grid layout as it's not completely conventional sizes, the layout of the first row for instance seems to be dictated by the width of the images rather than any gris design, ie Activities & clubs = 2fr and Accomodation = 1fr, from a purely code perspective this is how I would do this, ensuring responsiveness across many devices. But as per the specs I;ve tried to keep the design in line with the figma layout and jsut used the images width to set the grid and set the max width to the layout specs. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6. Coming down to the Feature Banner we see that it's the same max-width as the header of 1440px, wich means it needs to have the same wrapper as the header and not the rest of the page content.
 
-### `npm test`
+7. Perhaps not the biggest concern here but to demonstarte my understanding of using Javascript within react and how powerful jsx can be I've added the data for the cards each into objects and then mapped over these to produce the card components for each relative section. On a real world project this data wouldn't be kept locally but the execution would be much the same ie making an api call and then mapping over that data. This is really useful as it means we can create a reusable component such as a card and inject that with whatever data we like. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Older Browser Concerns
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Need backdrop filter work around https://stackoverflow.com/questions/38145368/css-workaround-to-backdrop-filter 
+2. border-image css property for button border gradient, how backwards compatible is this?

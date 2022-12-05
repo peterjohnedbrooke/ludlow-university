@@ -1,0 +1,30 @@
+.cardGridTwoContents {
+    margin-bottom: 5rem;
+    position: relative;
+
+    .gridTwo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2.5rem;
+
+        .gridAreaThree, .gridAreaFour, .gridAreaFive {
+            height: 100%;
+            max-height: 520px;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            span {
+                position: relative;
+                background-color: white;
+                width: auto;
+                z-index: 2;
+                padding: 2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.upcomingEventsContents {
+    .titleContainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    
+        button {
+            display: flex;
+            width: 100%;
+            max-width: 260px;
+            height: 64px;
+            background-color: transparent;
+            opacity: 0.8;
+            backdrop-filter: blur(4px);
+            align-items: center;
+            justify-content: center;
+            border-image: linear-gradient(to right, #00C2FF, #FF27C3) 1;
+            
+        }
+    }
+    
+    .eventsCardsGrid {
+        margin-top: 2.5rem;
+        display: flex;
+        gap: 2.5rem;
+    }
+
+}

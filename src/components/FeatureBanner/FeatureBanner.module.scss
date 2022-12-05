@@ -1,0 +1,59 @@
+.background {
+    background-image: url("images/banner-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+
+    .featureBannerContents {
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 85%;
+        justify-content: space-evenly;
+        position: relative;
+
+        span {
+            hr {
+                width: 5vw;
+                background: linear-gradient(to right, #00C2FF, #FF27C3);
+                height: 2px;
+                border: 0;
+            }
+        
+            h3 {
+                color: var(--font-color-secondary);
+            }
+
+        }
+
+       
+    
+        button {
+            display: flex;
+            width: 50%;
+            max-width: 260px;
+            height: 64px;
+            background-color: transparent;
+            opacity: 0.8;
+            backdrop-filter: blur(4px);
+            align-items: center;
+            justify-content: center;
+            border-image: linear-gradient(to right, #00C2FF, #FF27C3) 1;
+            
+            h5 {
+                color: var(--font-color-secondary) !important;
+            }
+        }
+    }
+
+}
+

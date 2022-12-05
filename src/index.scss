@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --font-primary: 'Oswald', sans-serif;
+  --font-secondary: 'Fira Sans', sans-serif;
+  --font-color-primary: black;
+  --font-color-secondary: white;
+  --font-color-tertiary: #333333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+h5 {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 64px;
+  /* identical to box height, or 114% */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  /* or 120% */
+  /* Dark grey */
+  color: #333333;
+}
+
+h4 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+  display: flex;
+  align-items: center;
+  /* Dark grey */
+  color: #333333;
+}
+
+p {
+  font-family: var(--font-secondary);
+  font-size: 14px;
+}
