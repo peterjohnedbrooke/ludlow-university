@@ -7,7 +7,7 @@ import Layout from './components/Layout/Layout'
 
 function App() {
   return (
-   <HashRouter basename={process.env.PUBLIC_URL}>
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Layout>
       <Routes>
           <Route path='/' element={<Header/>}>
@@ -15,7 +15,7 @@ function App() {
           </Route>
         </Routes>
     </Layout>
-   </HashRouter>
+   </BrowserRouter>
   );
 }
 
