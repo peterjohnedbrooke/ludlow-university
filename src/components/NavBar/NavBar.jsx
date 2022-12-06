@@ -6,9 +6,9 @@ import Logo from '../Logo/Logo'
 
 export default function NavBar() {
     return (
-        <>
+        <div className={styles.navBar}>
             <Logo />
-            <ul className={styles.nav}>
+            <ul className={styles.navList}>
                 <li>
                     <h5>Study</h5>
                 </li>
@@ -22,6 +22,6 @@ export default function NavBar() {
                     <img src={searchIcon} />
                 </li>
             </ul>
-        </>
+        </div>
     )
 }

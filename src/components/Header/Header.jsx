@@ -7,14 +7,16 @@ import FullWidthtWrapper from '../FullWidthWrapper/FullWidthWrapper';
 import Media from 'react-media';
 import MobileNav from '../MobileNav/MobileNav';
 
+
 export default function Header() {
     return (
         <>
             <div className={styles.headerWrapper}>
                 <div className={styles.headerContainer}>
-                    <Media query="(min-width: 768px)" render={() => (<NavBar />)} />
-                    <Media query="(max-width: 768px)" render={() => (<MobileNav />)} />
+                    <Media query="(min-width: 980px)" render={() => (<NavBar />)} />
+                    <Media query="(max-width: 980px)" render={() => (<MobileNav />)} />
                 </div>
+
             </div>
             <Outlet />
         </>

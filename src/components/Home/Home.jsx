@@ -6,8 +6,9 @@ import CardGridTwo from '../CardGridTwo/CardGridTwo';
 import FeatureBanner from '../FeatureBanner/FeatureBanner';
 import UpcomingEvents from '../UpcomingEvents/UpcomingEvents';
 import Footer from '../Footer/Footer';
+import Layout from '../Layout/Layout';
 
-export default function Landing() {
+export default function Home() {
     return (
         <>
             <Hero />
@@ -15,7 +16,6 @@ export default function Landing() {
             <CardGridTwo />
             <FeatureBanner />
             <UpcomingEvents />
-            <Footer />
         </>
     )
 }

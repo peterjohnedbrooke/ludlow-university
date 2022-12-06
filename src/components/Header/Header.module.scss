@@ -3,6 +3,12 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    width: 100vw;
+    position: sticky;
+    margin-bottom: 2rem;
 
     .headerContainer {
         display: flex;
@@ -15,7 +21,16 @@
         height: 88px;
         background: rgba(255, 255, 255, 0.9);
         backdrop-filter: blur(6px);
-        /* Note: backdrop-filter has minimal browser support */
+        
     }
 }
 
+@media screen and (max-width: 768px) {
+    .headerWrapper {
+        margin-bottom: 1rem;
+        
+        .headerContainer {
+            
+        }
+    }
+  } 

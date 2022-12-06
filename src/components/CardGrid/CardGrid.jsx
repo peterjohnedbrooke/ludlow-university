@@ -7,8 +7,8 @@ import clubs from './images/clubs.jpg'
 export default function CardGrid() {
     return (
         <ContentWrapper>
-            <div className={styles.cardGridContents}>
-                <div className={styles.gridOne}>
+            <div className={styles.cardGridContainer}>
+                <div className={styles.grid}>
                     <div className={styles.gridAreaOne}>
                         <img src={clubs} alt="" />
                         <span>

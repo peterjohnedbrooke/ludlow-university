@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {Routes, Route, BrowserRouter, HashRouter } from "react-router-dom";
-import Landing from './components/Landing/Landing';
+import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import Layout from './components/Layout/Layout'
 
@@ -10,8 +10,7 @@ function App() {
    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Layout>
       <Routes>
-          <Route path='/' element={<Header/>}>
-            <Route index element={<Landing />} />
+          <Route path='/' element={<Home/>}>
           </Route>
         </Routes>
     </Layout>

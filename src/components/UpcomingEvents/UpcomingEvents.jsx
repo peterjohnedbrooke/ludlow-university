@@ -35,7 +35,7 @@ const events = [{
 export default function UpcomingEvents() {
     return (
         <ContentWrapper>
-            <div className={styles.upcomingEventsContents}>
+            <div className={styles.upcomingEventsContainer}>
                 <div className={styles.titleContainer}>
                     <h3>Upcoming Events</h3>
                     <button><h5>View all events</h5></button>

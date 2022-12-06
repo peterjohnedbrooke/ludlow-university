@@ -8,23 +8,23 @@ import support from './images/support.jpg'
 export default function CardGridTwo() {
     return (
         <ContentWrapper>
-            <div className={styles.cardGridTwoContents}>
-                <div className={styles.gridTwo}>
-                    <div className={styles.gridAreaThree}>
+            <div className={styles.cardGridTwoContainer}>
+                <div className={styles.cardGrid}>
+                    <div>
                         <img src={chat} alt="" />
                         <span>
                             <h5>Chat to a student</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </span>
                     </div>
-                    <div className={styles.gridAreaFour}>
+                    <div>
                         <img src={support} alt="" />
                         <span>
                             <h5>Support</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </span>
                     </div>
-                    <div className={styles.gridAreaFive}>
+                    <div>
                         <img src={bike} alt="" />
                         <span>
                             <h5>Life in Ludlow</h5>

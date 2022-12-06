@@ -1,4 +1,10 @@
-.upcomingEventsContents {
+.upcomingEventsContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
     .titleContainer {
         display: flex;
         flex-direction: row;
@@ -30,10 +36,18 @@
 }
 
 @media screen and (max-width: 768px) {
-    .upcomingEventsContents {
+    .upcomingEventsContainer {
+      padding: 0;
+
       .eventsCardsGrid {
         width: 100%;
         flex-direction: column;
+      }
+      .titleContainer {
+        width: 90%;
+        button {
+          width: 50%;
+        }
       }
     }
   } 

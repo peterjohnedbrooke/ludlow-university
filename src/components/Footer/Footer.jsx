@@ -13,7 +13,7 @@ export default function Footer() {
     return (
         <div className={styles.footerWrapper}>
             <div className={styles.footer}>
-                <div className={styles.footerLogoContents} style={{ backgroundImage: `url(${logoBg})` }}>
+                <div className={styles.footerLogoContainer} style={{ backgroundImage: `url(${logoBg})` }}>
                     <div>
                         <Logo />
                         <ul>

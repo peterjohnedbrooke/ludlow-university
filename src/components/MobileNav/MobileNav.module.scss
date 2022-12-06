@@ -1,141 +1,175 @@
+.logoStatic {
+    position: relative;
+    transition: margin-bottom 0.5s ease-in-out;
+    margin-bottom: 0px;
+    padding-left: 2rem;
+}
 
+.logoMove {
+    position: relative;
+    transition: margin-bottom 0.5s ease-in-out;
+    margin-bottom: 150px;
+    padding-left: 2rem;
+}
 
-    .logoStatic {
-        position: relative;
-        transition: margin-bottom 0.5s ease-in-out;
-        margin-bottom: 0px;
+.logoContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    transition: all 0.5s ease-in-out;
+}
+
+.logoContainerMove {
+    position: relative;
+    margin-bottom: 150px;
+    transition: margin-bottom 0.5s ease-in-out;
+
+    h4 {
+        font-size: 3vh;
+        height: fit-content;
+        color: var(--text-color-secondary);
+        letter-spacing: 0.1rem;
+    }
+}
+
+.navContainer {
+    z-index: 3;
+}
+
+.burgerIcon {
+    z-index: 3;
+    color: #FF27C3;
+    padding-right: 2rem;
+}
+
+.burgerIconCross {
+    z-index: 3;
+    color: #FF27C3;
+    padding-right: 2rem;
+}
+
+.burgerInner {
+    z-index: 999;
+}
+
+.navMenuActive {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    transition: all 1.2s ease-in-out;
+    margin: 0;
+    justify-content: center;
+    z-index: 2;
+    background-color: white;
+
+    .bg {
+        background-color: white;
+        opacity: 0.9;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
 
-    .logoMove {
-        position: relative;
-        transition: margin-bottom 0.5s ease-in-out;
-        margin-bottom: 150px;
+    
+
+    .listActive {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+        height: 50%;
+
+        li {
+            transition: all 0.5s ease-in-out;
+        }
+
+
+        a {
+            text-decoration: none;
+        }
     }
 
-    .logoContainer {
-        position: relative;
+    .iconsList {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin: 0;
+        width: 50%;
+    }
+
+    .brand {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: fit-content;
-        transition: all 0.5s ease-in-out;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.navMenuHidden {
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    transition: all 1.2s ease-in-out;
+    margin: 0 auto;
+    justify-content: center;
+    z-index: 2;
+    background-color: white;
+
+    .bg {
+        left: -100%;
+        width: 0%;
+        height: 100%;
+        transition: all 1s ease-in-out;
     }
 
-    .logoContainerMove {
-        position: relative;
-        margin-bottom: 150px;
-        transition: margin-bottom 0.5s ease-in-out;
-
-        h4 {
-            font-size: 3vh;
-            height: fit-content;
-            color: var(--text-color-secondary);
-            letter-spacing: 0.1rem;
-        }
-    }
-
-    .navContainer {
-        z-index: 2;
-    }
-
-    .burgerIcon {
-        z-index: 2;
-        color: #FF27C3;
-        text-shadow: 2px 2px black;
-        padding: 0.2rem;
-    }
-
-    .burgerIconCross {
-        z-index: 2;
-        color: #FF27C3;
-        padding: 0.2rem;
-    }
-
-    .burgerInner {
-        z-index: 999;
-    }
-
-    .navMenuActive {
-        position: fixed;
-        top: 0%;
-        left: 0%;
+    .listHidden {
+        transition: all 1s ease-in-out;
         display: flex;
         flex-direction: column;
-        height: 100vh;
-        width: 100vw;
-        transition: all 1.2s ease-in-out;
+        justify-content: space-evenly;
+        list-style: none;
+        height: 50%;
+
+        li {
+            transition: all 0.5s ease-in-out;
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .iconsListHidden {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        align-items: flex-end;
+        justify-content: space-between;
         margin: 0;
-        justify-content: center;
-
-        .bg {
-            background-color: lightgray;
-            opacity: 0.9;
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            z-index: -1;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
-
-       
-
-        .listActive {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            list-style: none;
-            height: 50%;
-
-            li {
-                transition: all 0.5s ease-in-out;
-            }
-
-            a {
-                text-decoration: none;
-            }
-        }
-
-        .iconsList {
-            display: flex;
-            flex-direction: row;
-            list-style-type: none;
-            align-items: flex-end;
-            justify-content: space-between;
-            margin: 0;
-            width: 50%;
-        }
-
-        .brand {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
+        width: 50%;
     }
+}
 
-    .navMenuHidden {
-        position: fixed;
-        top: 0%;
-        left: -100%;
-        width: 100vw;
-        height: 100%;
-        transition: all 1.2s ease-in-out;
 
-        .bg {
-            left: -100%;
-            width: 0%;
-            height: 100%;
-            transition: all 1s ease-in-out;
-        }
 
-        .listHidden {
-            display: none;
-            transition: all 1s ease-in-out;
-        }
-    }
 

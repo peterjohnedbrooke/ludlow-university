@@ -1,7 +1,7 @@
 import React from 'react'
 import Hamburger from 'hamburger-react'
 import styles from "./MobileNav.module.scss"
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import fb from "../../assets/icons/facebook.png"
 import twitter from "../../assets/icons/twitter.png"
 import linkedIn from "../../assets/icons/linkedin.png"
@@ -24,6 +24,8 @@ export default function MobileNav() {
     }
 
     const [isOpen, setOpen] = useState(false);
+
+
     return (
         <>
             <div className={click ? styles.logoMove : styles.logoStatic}><Logo /></div>
@@ -33,7 +35,7 @@ export default function MobileNav() {
                 </div>
             </div>
             <div className={click ? `${styles.navMenuActive} ` : `${styles.navMenuHidden} `}>
-                <div className={styles.bg}></div>
+                {/* <div className={styles.bg}></div> */}
                 <ul className={click ? `${styles.listActive} ` : `${styles.listHidden} `}>
                     <li onClick={handleExit}>
                         <h3>Study</h3>
@@ -45,7 +47,7 @@ export default function MobileNav() {
                         <h3>About Us</h3>
                     </li>
                 </ul>
-                <ul className={styles.iconsList}>
+                <ul className={click ? `${styles.iconsList} ` : `${styles.iconsListHidden} `}>
                     <li>
                         <img src={twitter} alt="" />
                     </li>
