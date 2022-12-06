@@ -22,10 +22,21 @@
 
         .spanOne {
             width: 95%;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
         }
 
-        .spanTwo, .spanThree {
+        div {
             width: 60%;
+            display: flex;
+            flex-direction: column;
+
+            .spanTwo, .spanThree {
+                width: 100%;
+                padding-bottom: 1rem;
+            }
 
             button {
                 display: flex;
@@ -40,6 +51,9 @@
                 z-index: -1;
             }
         }
+
+
+        
            
     }
 
@@ -79,6 +93,9 @@
     
             .spanOne {
                 width: 95%;
+                display: flex;
+                flex-direction: column;
+                gap: 0;
             }
     
             .spanTwo, .spanThree {
@@ -97,6 +114,8 @@
                     z-index: -1;
                 }
             }
+
+            
                
         }
     
@@ -152,14 +171,15 @@
       }
 
       .heroTextContainer {
-        width: 80%;
-        padding: 1rem;
+        width: auto;
         height: 100%;
         padding-right: 1rem;
         padding-left: 1rem;
+        
 
         .spanOne {
             width: 100%;
+            gap:0;
 
             h3 {
                 line-height: normal;
@@ -172,4 +192,39 @@
       }
 
     }
-  } 
+} 
+
+@media screen and (max-width: 480px){
+    .heroWrapper {
+
+        .heroTextContainer {
+
+            div {
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+    
+                .spanThree {
+                    width: 100%;
+                    padding-bottom: 1rem;
+                }
+                .spanTwo {
+                    display: none;
+                }
+    
+                button {
+                    display: flex;
+                    width: 100%;
+                    height: 64px;
+                    background-color: transparent;
+                    opacity: 0.8;
+                    backdrop-filter: blur(4px);
+                    align-items: center;
+                    justify-content: center;
+                    border-image: linear-gradient(to right, #00C2FF, #FF27C3) 1;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+} 

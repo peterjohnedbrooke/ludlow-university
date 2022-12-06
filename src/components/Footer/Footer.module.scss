@@ -50,7 +50,7 @@
        
     }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 768px) {
     .footerWrapper {
         .footer {
             height: 150px;
@@ -68,6 +68,7 @@
                 div {
                     flex-direction: row;
                     width: 100%;
+                    height: auto;
                 }
 
                 ul {

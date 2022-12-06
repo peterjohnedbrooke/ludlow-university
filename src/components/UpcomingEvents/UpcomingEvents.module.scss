@@ -35,6 +35,22 @@
 
 }
 
+@media screen and (max-width: 768px) and (orientaion: portrait) {
+    .upcomingEventsContainer {
+      padding: 0;
+
+      .eventsCardsGrid {
+        width: 100%;
+        flex-direction: column;
+      }
+      .titleContainer {
+        width: 90%;
+        button {
+          width: 50%;
+        }
+      }
+    }
+  } 
 @media screen and (max-width: 768px) {
     .upcomingEventsContainer {
       padding: 0;

@@ -3,6 +3,7 @@
     flex-direction: row;
     padding-left: 1rem;
     padding-right: 1rem;
+    max-width: 1280px;
    
     .cardGrid {
         display: flex;
@@ -32,7 +33,19 @@
     }     
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) and (orientaion: portrait) {
+    .cardGridTwoContainer {
+        flex-direction: column;
+        padding: 0;
+        
+        .cardGrid {
+            flex-direction: column;
+            margin-top: 2.5rem;
+        }
+
+    }
+}  
+@media screen and (max-width: 768px){
     .cardGridTwoContainer {
         flex-direction: column;
         padding: 0;

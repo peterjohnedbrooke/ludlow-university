@@ -30,4 +30,5 @@ I really enoyed this project and I love design and building user experiences. I'
 Testing responsiveness doesn't always collate the same results by testing in browser. so it's always really helpful to have multiple devices at hand. I would really need a tablet to test this fully as this format is definetely lacking in my project. 
 It's been a few months since I've built a vaniulla React App as I have been using Next.js and Contentful headless CMS in personal/freelance projects and have found it a really great experience, so getting back to create-react-app there are certain things that work differently.
 
-It's also been a while since I've tried designing in vanilla css/scss as my job and many projects use Bootstrap and to a lesser extent tailwind, but I actually prefer the freedom of designing with vanilla css and gives you more autonomy to design in a creative way. 
+It's also been a while since I've tried designing in vanilla css/scss as my job and many projects use Bootstrap and to a lesser extent tailwind, but I actually prefer the freedom of designing with vanilla css and gives you more autonomy to design in a creative way.
+There's still more to do here but I'm going to add to it and learn a bit more.
