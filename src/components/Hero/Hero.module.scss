@@ -18,42 +18,32 @@
         flex-direction: column;
         justify-content: space-evenly;
         width: 42%;
-        height: auto;
 
-        .spanOne {
+        .spanOne, .spanTwo {
             width: 95%;
             width: 95%;
             display: flex;
-            flex-direction: column;
-            gap: 2rem;
+
         }
 
-        div {
-            width: 60%;
+    
+        .spanFour, .spanThree {
+            width: 50%;
+            
+        }
+
+        button {
             display: flex;
-            flex-direction: column;
-
-            .spanTwo, .spanThree {
-                width: 100%;
-                padding-bottom: 1rem;
-            }
-
-            button {
-                display: flex;
-                width: 100%;
-                height: 64px;
-                background-color: transparent;
-                opacity: 0.8;
-                backdrop-filter: blur(4px);
-                align-items: center;
-                justify-content: center;
-                border-image: linear-gradient(to right, #00C2FF, #FF27C3) 1;
-                z-index: -1;
-            }
-        }
-
-
-        
+            width: 100%;
+            height: 64px;
+            background-color: transparent;
+            opacity: 0.8;
+            backdrop-filter: blur(4px);
+            align-items: center;
+            justify-content: center;
+            border-image: linear-gradient(to right, #00C2FF, #FF27C3) 1;
+            z-index: -1;
+        } 
            
     }
 
@@ -90,6 +80,7 @@
             justify-content: space-evenly;
             width: 42%;
             height: auto;
+            
     
             .spanOne {
                 width: 95%;
@@ -99,7 +90,7 @@
             }
     
             .spanTwo, .spanThree {
-                width: 60%;
+                width: 95%;
     
                 button {
                     display: flex;
@@ -175,6 +166,7 @@
         height: 100%;
         padding-right: 1rem;
         padding-left: 1rem;
+        gap: 1rem;
         
 
         .spanOne {
@@ -198,17 +190,12 @@
     .heroWrapper {
 
         .heroTextContainer {
-
-            div {
-                width: 50%;
-                display: flex;
-                flex-direction: row;
     
                 .spanThree {
                     width: 100%;
                     padding-bottom: 1rem;
                 }
-                .spanTwo {
+                .spanThree {
                     display: none;
                 }
     
@@ -227,4 +214,4 @@
             }
         }
     }
-} 
+ 
