@@ -7,7 +7,7 @@
 4. I've built out the navbar as per the figma specs as a Header component containing the logo and nav components. I would usually call this header component navbar and code as such but the figma specs point to using a header component which contains both.
 
 
-5. I was experimenting for quite some time on how to attack the Card grid layout as it's not completely conventional sizes, the layout of the first row for instance seems to be dictated by the width of the images rather than any grid design, ie Activities & clubs = 2fr and Accomodation = 1fr, from a purely code perspective this is how I would do this, ensuring responsiveness across many devices. But as per the specs I;ve tried to keep the design in line with the figma layout and just used the images width to set the grid and set the max width to the layout specs. 
+5. I was experimenting for quite some time on how to attack the Card grid layout as it's not completely conventional sizes, the layout of the first row for instance seems to be dictated by the width of the images rather than any grid design, ie Activities & clubs = 2fr and Accomodation = 1fr, from a purely code perspective this is how I would do this, ensuring responsiveness across many devices. But as per the specs I've tried to keep the design in line with the figma layout and just used the images width to set the grid and set the max width to the layout specs. 
 
 6. Coming down to the Feature Banner we see that it's the same max-width as the header of 1440px, wich means it needs to have the same wrapper as the header and not the rest of the page content.
 

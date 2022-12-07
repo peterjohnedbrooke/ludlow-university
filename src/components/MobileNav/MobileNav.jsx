@@ -1,7 +1,7 @@
 import React from 'react'
 import Hamburger from 'hamburger-react'
 import styles from "./MobileNav.module.scss"
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import fb from "../../assets/icons/facebook.png"
 import twitter from "../../assets/icons/twitter.png"
 import linkedIn from "../../assets/icons/linkedin.png"

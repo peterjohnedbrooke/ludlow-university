@@ -1,9 +1,7 @@
 import React from 'react'
 import styles from './Header.module.scss';
 import NavBar from '../NavBar/NavBar';
-import Logo from '../Logo/Logo';
 import { Outlet } from 'react-router-dom';
-import FullWidthtWrapper from '../FullWidthWrapper/FullWidthWrapper';
 import Media from 'react-media';
 import MobileNav from '../MobileNav/MobileNav';
 

@@ -11,8 +11,7 @@
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        padding-right: 1rem;
-        padding-left: 1rem;
+        
 
             .footerLogoContainer {
                 height: 100%;
@@ -55,6 +54,7 @@
         .footer {
             height: 150px;
             flex-direction: column;
+            padding: 0;
 
             
             .footerLogoContainer {

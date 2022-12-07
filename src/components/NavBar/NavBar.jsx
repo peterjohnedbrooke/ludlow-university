@@ -19,7 +19,7 @@ export default function NavBar() {
                     <h5>About Us</h5>
                 </li>
                 <li>
-                    <img src={searchIcon} />
+                    <img src={searchIcon} alt=""/>
                 </li>
             </ul>
         </div>
