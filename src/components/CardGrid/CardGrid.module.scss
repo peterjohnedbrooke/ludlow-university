@@ -20,13 +20,25 @@
                     max-width: 100%;
                 }
 
-                span {
+                div {
                     position: relative;
                     background-color: white;
                     max-width: 350px;
                     width: auto;
                     top: -50px;
                     padding: 2rem;
+
+                    span {
+                        display: flex;
+                        flex-direction: row;
+                        width: 50%;
+                        justify-content: space-between;
+
+                        img {
+                           height: 12px;
+                           width: 14px;
+                        }
+                    }
                 }
             }
             .gridAreaTwo {

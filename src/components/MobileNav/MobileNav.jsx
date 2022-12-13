@@ -20,7 +20,6 @@ export default function MobileNav() {
     const handleExit = (e) => {
         setClick(!click)
         setOpen(false);
-        // setChangePage(true);
     }
 
     const [isOpen, setOpen] = useState(false);
@@ -35,7 +34,6 @@ export default function MobileNav() {
                 </div>
             </div>
             <div className={click ? `${styles.navMenuActive} ` : `${styles.navMenuHidden} `}>
-                {/* <div className={styles.bg}></div> */}
                 <ul className={click ? `${styles.listActive} ` : `${styles.listHidden} `}>
                     <li onClick={handleExit}>
                         <h3>Study</h3>

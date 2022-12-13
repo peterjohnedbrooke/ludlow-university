@@ -1,12 +1,11 @@
 .headerWrapper {
-    max-width: 1440px;
+    // max-width: 1440px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     top: 0;
     z-index: 999;
     background-color: white;
-    width: 100vw;
     position: sticky;
     margin-bottom: 2rem;
 
@@ -17,6 +16,8 @@
         justify-content: space-between;
         width: inherit;
         max-width: 1280px;
+        padding-right: 1rem;
+        padding-left: 1rem;
         margin: 0 auto;
         height: 88px;
         background: rgba(255, 255, 255, 0.9);
@@ -25,12 +26,12 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .headerWrapper {
-        margin-bottom: 1rem;
+// @media screen and (max-width: 768px) {
+//     .headerWrapper {
+//         margin-bottom: 1rem;
         
-        .headerContainer {
+//         .headerContainer {
             
-        }
-    }
-  } 
+//         }
+//     }
+//   } 

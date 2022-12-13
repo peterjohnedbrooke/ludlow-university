@@ -4,7 +4,7 @@
     height: auto;
     display: flex;
     margin: 0 auto;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     margin-bottom: 2.5rem;
 
     .heroContainer {
@@ -43,6 +43,10 @@
             justify-content: center;
             border-image: linear-gradient(to right, #00C2FF, #FF27C3) 1;
             z-index: -1;
+
+            h5 {
+                color: var(--font-color-primary) !important;
+            }
         } 
            
     }
@@ -64,7 +68,7 @@
         width: 100%;
         height: auto;
         margin: 0 auto;
-        margin-top: 2.5rem;
+        margin-top: 1rem;
         margin-bottom: 2.5rem;
 
         .heroContainer {
@@ -164,8 +168,8 @@
       .heroTextContainer {
         width: auto;
         height: 100%;
-        padding-right: 1rem;
-        padding-left: 1rem;
+        padding: 1rem;
+        margin: 0 auto;
         gap: 1rem;
         
 

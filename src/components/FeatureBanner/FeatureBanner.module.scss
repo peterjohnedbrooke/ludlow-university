@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@
 
     .featureBannerContents {
         display: flex;
-        width: 60%;
+        width: 842px;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -22,11 +22,18 @@
         position: relative;
 
         span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
             hr {
+                z-index: 2;
                 width: 5vw;
                 background: linear-gradient(to right, #00C2FF, #FF27C3);
                 height: 2px;
                 border: 0;
+                opacity: 1;
             }
         
             h3 {
@@ -41,14 +48,14 @@
             max-width: 260px;
             height: 64px;
             background-color: transparent;
-            opacity: 0.8;
-            backdrop-filter: blur(4px);
             align-items: center;
             justify-content: center;
             border-image: linear-gradient(to right, #00C2FF, #FF27C3) 1;
             
             h5 {
                 color: var(--font-color-secondary) !important;
+                opacity: 1;
+                z-index: 2;
             }
         }
     }
@@ -61,7 +68,7 @@
     
         .featureBannerContents {
             display: flex;
-            width: 80%;
+            width: 100%;
             flex-direction: column;
             align-items: center;
             text-align: center;
@@ -82,7 +89,7 @@
     
         .featureBannerContents {
             display: flex;
-            width: 80%;
+            width: 100%;
             flex-direction: column;
             align-items: center;
             text-align: center;

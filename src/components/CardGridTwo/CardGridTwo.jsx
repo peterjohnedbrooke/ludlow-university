@@ -5,36 +5,43 @@ import bike from './images/bike.jpg'
 import chat from './images/chat.jpg'
 import support from './images/support.jpg'
 
+const data = [
+    {
+        image : chat, 
+        title : "Chat to a student",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+        image : support, 
+        title : "Support",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    },
+    {
+        image : bike, 
+        title : "Life in Ludlow",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    }
+
+]
+
 export default function CardGridTwo() {
     return (
         <ContentWrapper>
             <div className={styles.cardGridTwoContainer}>
                 <div className={styles.cardGrid}>
-                    <div>
-                        <img src={chat} alt="" />
-                        <span>
-                            <h5>Chat to a student</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </span>
-                    </div>
-                    <div>
-                        <img src={support} alt="" />
-                        <span>
-                            <h5>Support</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </span>
-                    </div>
-                    <div>
-                        <img src={bike} alt="" />
-                        <span>
-                            <h5>Life in Ludlow</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </span>
-                    </div>
+                    {data.map((item, i) => {
+                        return (
+                            <div key={i}>
+                                <img src={item.image} />
+                                <span>
+                                    <h5>{item.title}</h5>
+                                    <p>{item.text}</p>
+                                </span>
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
-
         </ContentWrapper>
-
     )
 }

@@ -5,6 +5,11 @@ import game from './images/game.jpg'
 import study from './images/study.jpg'
 import EventCard from '../EventCard/EventCard'
 import ContentWrapper from '../ContentWrapper/ContentWrapper'
+// import { Carousel } from 'react-responsive-carousel';
+import Media from 'react-media';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import Carousel from 'react-bootstrap/Carousel';
+
 
 const events = [{
     date: [{
@@ -40,13 +45,32 @@ export default function UpcomingEvents() {
                     <h3>Upcoming Events</h3>
                     <button><h5>View all events</h5></button>
                 </div>
-                <div className={styles.eventsCardsGrid}>
-                    {events.map((event, i) => {
-                        return (
-                            <EventCard event={event} key={i} />
-                        )
-                    })}
-                </div>
+                    <Media query="(min-width: 480px)" render={() => 
+                    (
+                        <div className={styles.eventsCardsGrid}>
+                            {events.map((event, i) => {
+                                return (
+                                    <EventCard event={event} key={i} />
+                                )
+                            })}
+                        </div>
+                    )} />
+
+                    <Media query="(max-width: 480px)" render={() => 
+                        (
+                            <div className={styles.eventsCardsGrid}>
+                                <Carousel className="d-block w-100">
+                                    {events.map((event, i) => {
+                                        return (
+                                            <Carousel.Item key={i} className="w-100">
+                                                <EventCard event={event} key={i} />
+                                            </Carousel.Item>
+                                        )
+                                    })}
+                                </Carousel>
+                            </div>
+                        )}
+                    />
             </div>
         </ContentWrapper>
     )

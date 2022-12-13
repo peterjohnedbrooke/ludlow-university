@@ -14,7 +14,6 @@ export default function EventCard({ event }) {
                             </div>
                         )
                     })}
-
                 </div>
                 <div className={styles.eventTitle}>
                     <h3>{event.title}</h3>

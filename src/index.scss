@@ -1,3 +1,5 @@
+// @import "~bootstrap/scss/bootstrap";
+
 body {
   margin: 0;
   font-family: var(--font-primary);
@@ -18,21 +20,19 @@ code {
 h1, h2, h3, h4, h5, p {
   padding: 0;
   margin: 0;
+  font-weight: 400 !important;
+  font-style: normal !important;
 }
 
 h5 {
   font-family: var(--font-primary);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-size: 20px !important;
   line-height: 24px;
 }
 
 h1 {
   font-family: var(--font-primary);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 56px;
+  font-size: 56px !important;
   line-height: 64px;
   display: flex;
   align-items: center;
@@ -41,9 +41,7 @@ h1 {
 
 h3 {
   font-family: var(--font-primary);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
+  font-size: 40px !important;
   line-height: 48px;
   color: #333333;
 }
@@ -51,78 +49,78 @@ h3 {
 h4 {
   font-family: var(--font-primary);
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 400 !important;
+  font-size: 24px !important;
   color: #333333;
 }
 
 p {
   font-family: var(--font-secondary);
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 35px;
+    font-size: 35px !important;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 25px !important;
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 20px !important;
   }
 
   h5 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
 } 
 @media screen and (max-width: 940px) and (orientation: landscape) {
   h1 {
-    font-size: 35px;
+    font-size: 35px !important;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
   h3 {
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 25px !important;
+    line-height: 35px !important;
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 20px !important;
   }
 
   h5 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
 } 
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 35px;
+    font-size: 35px !important;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 20px!important;
   }
 
   h3 {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 20px !important;
+    line-height: 25px !important;
   }
 
   h4 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
 
   h5 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
 } 

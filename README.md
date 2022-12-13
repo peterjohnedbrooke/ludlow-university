@@ -13,10 +13,13 @@
 
 7. Perhaps not the biggest concern here but to demonstarte my understanding of using Javascript within react and how powerful jsx can be I've added the data for the cards each into objects and then mapped over these to produce the card components for each relative section. On a real world project this data wouldn't be kept locally but the execution would be much the same ie making an api call and then mapping over that data. This is really useful as it means we can create a reusable component such as a card and inject that with whatever data we like. 
 
+8. I have not used redux before but I can see how its important to have a state management tool for large scale projects, where state may change far more often and we need a way of lifting up the state, again it's the core concept of keeping things reusable. I will attempt to use it in a very basic way here.
+
 Dependancies/NPM
 sass
 react-media
 hambuger-react
+react-responsive-carousel https://www.npmjs.com/package/react-responsive-carousel 
 
 
 Older Browser Concerns

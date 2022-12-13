@@ -3,6 +3,7 @@ import ContentWrapper from '../ContentWrapper/ContentWrapper'
 import styles from './CardGrid.module.scss'
 import accomodation from './images/accomodation.jpg'
 import clubs from './images/clubs.jpg'
+import arrow from '../../assets/icons/arrowRight.png'
 
 export default function CardGrid() {
     return (
@@ -11,10 +12,13 @@ export default function CardGrid() {
                 <div className={styles.grid}>
                     <div className={styles.gridAreaOne}>
                         <img src={clubs} alt="" />
-                        <span>
-                            <h5>Activities and Clubs</h5>
+                        <div>
+                            <span>
+                                <h5>Activities and Clubs</h5>
+                                {/* <img src={arrow} alt="" /> */}
+                            </span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </span>
+                        </div>
                     </div>
                     <div className={styles.gridAreaTwo}>
                         <img src={accomodation} alt="" />
