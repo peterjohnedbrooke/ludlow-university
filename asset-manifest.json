@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ludlow-university/static/css/main.156243c7.css",
-    "main.js": "/ludlow-university/static/js/main.fb9b45d4.js",
+    "main.css": "/ludlow-university/static/css/main.b479b92c.css",
+    "main.js": "/ludlow-university/static/js/main.9d222234.js",
     "static/js/787.4a128fa5.chunk.js": "/ludlow-university/static/js/787.4a128fa5.chunk.js",
     "static/media/Group.png": "/ludlow-university/static/media/Group.33ee378b976de5de5b91.png",
     "static/media/clubs.jpg": "/ludlow-university/static/media/clubs.879a89efcd5145de6454.jpg",
@@ -16,12 +16,12 @@
     "static/media/twitterBlock.png": "/ludlow-university/static/media/twitterBlock.a7c5e1ff16ad7924d1b0.png",
     "static/media/bgLogo.jpg": "/ludlow-university/static/media/bgLogo.5f824f8d054345b2c840.jpg",
     "index.html": "/ludlow-university/index.html",
-    "main.156243c7.css.map": "/ludlow-university/static/css/main.156243c7.css.map",
-    "main.fb9b45d4.js.map": "/ludlow-university/static/js/main.fb9b45d4.js.map",
+    "main.b479b92c.css.map": "/ludlow-university/static/css/main.b479b92c.css.map",
+    "main.9d222234.js.map": "/ludlow-university/static/js/main.9d222234.js.map",
     "787.4a128fa5.chunk.js.map": "/ludlow-university/static/js/787.4a128fa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.156243c7.css",
-    "static/js/main.fb9b45d4.js"
+    "static/css/main.b479b92c.css",
+    "static/js/main.9d222234.js"
   ]
 }
