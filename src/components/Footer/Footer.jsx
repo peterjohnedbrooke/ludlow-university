@@ -9,7 +9,6 @@ import Logo from '../Logo/Logo'
 import twitterFeed from "./assets/twitterBlock.png"
 
 export default function Footer() {
-    console.log(logoBg)
     return (
         <div className={styles.footerWrapper}>
             <div className={styles.footer}>

@@ -59,10 +59,10 @@ export default function UpcomingEvents() {
                     <Media query="(max-width: 480px)" render={() => 
                         (
                             <div className={styles.eventsCardsGrid}>
-                                <Carousel className="d-block w-100">
+                                <Carousel >
                                     {events.map((event, i) => {
                                         return (
-                                            <Carousel.Item key={i} className="w-100">
+                                            <Carousel.Item key={i}>
                                                 <EventCard event={event} key={i} />
                                             </Carousel.Item>
                                         )

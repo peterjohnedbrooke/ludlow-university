@@ -15,17 +15,20 @@ export default function CardGrid() {
                         <div>
                             <span>
                                 <h5>Activities and Clubs</h5>
-                                {/* <img src={arrow} alt="" /> */}
+                                <img src={arrow} alt="" />
                             </span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                     </div>
                     <div className={styles.gridAreaTwo}>
                         <img src={accomodation} alt="" />
-                        <span>
-                            <h5>Accommodation</h5>
+                        <div>
+                            <span>
+                                <h5>Accommodation</h5>
+                                <img src={arrow} alt="" />
+                            </span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </span>
+                        </div>
                     </div>
                 </div>
             </div>
